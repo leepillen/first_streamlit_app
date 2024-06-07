@@ -1,2 +1,4 @@
 streamlit
 snowflake-connector-python
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
